@@ -66,7 +66,7 @@ function setup() {
   ball=Bodies.circle(50,200,20)
   World.add(world,ball)
 
-  slingShot=new Slingshot(ball,{x:150,y:200})
+  slingShot=new Slingshot(ball,{x:150,y:150})
   
 
 }
